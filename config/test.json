@@ -1,5 +1,4 @@
 {
   "jwtPrivateKey": "elhawahawaya",
-  "db": "mongodb://localhost/vidly_tests",
-  "liveDB": "mongodb+srv://boy:ssLTBCiuQcgskAHu@pm-liccb.mongodb.net/test?retryWrites=true"
+  "db": "mongodb://localhost/vidly_tests"
 }
