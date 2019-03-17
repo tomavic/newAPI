@@ -10,6 +10,9 @@ const error = require('../middleware/error');
 
 module.exports = function(app) {
   app.use(express.json());
+  app.use('/', function(req, res) {
+    res.send('Hola from Tomas!');
+  });
   app.use('/api/genres', genres);
   app.use('/api/customers', customers);
   app.use('/api/movies', movies);
